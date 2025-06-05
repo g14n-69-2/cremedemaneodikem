@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --botao-azul: #167BF7;
     --cor-de-fundo: #040814;
-    --font-roboto:var(--font-roboto)
+    --font-roboto-condensed: 'Roboto Condensed'
 }
 
 body{
@@ -19,17 +19,52 @@ body{
     background-image:url("img/image 9.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position:right;
+    background-size: 40%;
+    background-position-y: 1%;
 }
 .container{
     height:100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.container__botao{
+.container_botao{
     background-color:var(--botao-azul);
     border-radius: 10px;
     padding: 1em;
     color:var(--branco-principal);
     display: block;
     font-family: var(--font-roboto);
+    margin-bottom: 1em;
+    text-align: center;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 1.5px solid var(--branco-principal);
+}
+.container_viso{
+    font-size: 12px;
+    font-family: var(--font-roboto);
+}
+.container_titulo{
+    font-size: 28px;
+    font-weight: 1000;
+}
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+.container_caixa{
+    margin: 0.5em 4.5em ;
+}
+.secundaria_imagem{
+    width: 70%;
+}
+.secundaria{
+    margin: 0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom:0.2em;
+    font-family: var(--font-roboto-condensed);
 }
