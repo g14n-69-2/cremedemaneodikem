@@ -68,3 +68,18 @@ body{
     margin-bottom:0.2em;
     font-family: var(--font-roboto-condensed);
 }
+.botao_terciario{
+    display:inline-block;
+    margin-top:1em;
+}
+.terciaria{
+    background-image:url("img/image 17.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
+    background-size: 40%;
+    background-position-y: 1%;
+}
+.texto_terciario{
+    padding-right: ;
+}
